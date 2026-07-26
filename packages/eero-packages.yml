@@ -1,0 +1,27 @@
+generated: '2026-07-19'
+method: searched
+source: >-
+  PyPI (https://pypi.org/pypi/eero/json) and GitHub. eero publishes no official
+  public API or first-party client SDK; the eero app uses a private, unpublished
+  backend. The libraries below are community, reverse-engineered clients and are
+  NOT first-party.
+packages:
+  - language: python
+    registry: pypi
+    name: eero
+    version: 0.0.2
+    url: https://pypi.org/project/eero/
+    install: pip install eero
+    source: https://github.com/343max/eero-client
+    summary: Barebone community client for the (private) eero router API.
+    official: false
+  - language: python
+    registry: github
+    name: 343max/eero-client
+    url: https://github.com/343max/eero-client
+    summary: Reverse-engineered barebone client for the eero router API (~191 stars).
+    official: false
+notes: >-
+  No official eero-published SDK exists on npm, PyPI, Maven, NuGet, pkg.go.dev,
+  RubyGems, Packagist, or crates.io. Only community reverse-engineered clients
+  were found; no SDKs pointer is emitted because none are first-party.
